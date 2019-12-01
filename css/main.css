@@ -31,7 +31,7 @@ section {
   flex-wrap: wrap;
 }
 
-.photo:nth-child(2), .photo:nth-child(4) {
+.photo:nth-child(2), .photo:nth-child(5) {
   display: none;
 }
 
