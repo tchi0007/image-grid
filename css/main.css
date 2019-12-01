@@ -27,8 +27,8 @@ img {
 }
 
 section {
-display: flex;
-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .photo:nth-child(2), .photo:nth-child(4) {
@@ -37,7 +37,7 @@ flex-wrap: wrap;
 
 @media only screen and (min-width: 25em) {
 
-  .photo:nth-child(2),.photo:nth-child(3),.photo:nth-child(4), .photo:nth-child(5) {
+  .photo:nth-child(2), .photo:nth-child(3), .photo:nth-child(4), .photo:nth-child(5) {
     display: block;
     width: 50%;
   }
@@ -46,24 +46,25 @@ flex-wrap: wrap;
 
 @media only screen and (min-width: 38em) {
 
-  .photo > img:nth-child(2), img:nth-child(3), img:nth-child(4) {
+  .photo:nth-child(2), .photo:nth-child(3), .photo:nth-child(4) {
     width: 33.3333%;
     display: block;
   }
 
-  .photo > img:nth-child(5) {
+  .photo:nth-child(5) {
     display: none;
-}
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-  .photo > img:nth-child(1) {
+  .photo:nth-child(1) {
     width: 66.6666%;
     display: block;
   }
-  .photo > img:nth-child(2), img:nth-child(3), img:nth-child(4) {
+
+  .photo:nth-child(2), .photo:nth-child(3), .photo:nth-child(4), .photo:nth-child(5) {
     width: 33.3333%;
     display: block;
   }
